@@ -2,12 +2,12 @@ import React from 'react';
 import './styles/Home.css';
 import CodeBlock from './CodeBlock';
 import Sidebar from './Sidebar';
-import {OATH_AUTHORISE_CODE, TOKEN_CODE} from '../constants/constants'
+import {OATH_AUTHORISE_CODE, TOKEN_CODE, SIDEBAR_CONTENT} from '../constants/constants'
 
 const Home = () => {
     return(
         <div className="container">
-            <Sidebar />
+            <Sidebar content={SIDEBAR_CONTENT}/>
             <div className="content">
                 <section className="intro">
                     <h1 className="title">UCSD API Documentation</h1>

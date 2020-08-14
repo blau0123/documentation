@@ -3,6 +3,18 @@ export const HEADER_COLOR = "#4c8bf5";
 export const HEADER_HOVER_COLOR = "#1A73E8";
 export const CODE_BLOCK_COLOR = "#283142";
 
+// Sidebar
+export const SIDEBAR_CONTENT = [
+    {
+        parent: "oauth",
+        children: ["scopes", "workflow", "authorise", "token"]
+    },
+    {
+        parent: "room bookings",
+        children: ["Get Rooms", "Get Bookings"]
+    }
+];
+
 // Code examples
 /*
     Note: tabs are 3 spaces
