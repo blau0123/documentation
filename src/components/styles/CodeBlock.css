@@ -1,0 +1,38 @@
+.code-block-container {
+    margin: 0px 20px 20px 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.code-container {
+    background-color: #283142; /*#3f3f3f;*/
+    color: white;
+    padding: 10px 30px;
+    font-size: 15px;
+
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.header {
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    color: white;
+    background-color: #4c8bf5;
+
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.choice-btn {
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 15px;
+
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.choice-btn:hover {
+    cursor: pointer;
+}

@@ -1,0 +1,14 @@
+.sidebar-container {
+    width: 30%;
+    background-color: #F7F7F7;
+    height: 100%;
+    padding-left: 40px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.sidebar-title {
+    font-size: 18px;
+    padding: 10px;
+    font-weight: bold;
+}
