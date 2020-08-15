@@ -2,13 +2,37 @@
     width: 30%;
     background-color: #F7F7F7;
     height: 100%;
-    padding-left: 40px;
+    padding-left: 30px;
     overflow-y: auto;
     overflow-x: hidden;
 }
 
+.top-padding {
+    padding-top: 25px;
+}
+
 .sidebar-parent {
+    color: #6b6b6b;
     font-size: 18px;
     padding: 10px;
-    font-weight: bold;
+    font-weight: bolder;
+}
+
+.sidebar-parent:hover {
+    color: black;
+    cursor: pointer;
+}
+
+.dropdown-container {
+    padding-left: 30px;
+}
+
+.sidebar-child{
+    color: #6b6b6b;
+    font-size: 18px;  
+}
+
+.sidebar-child:hover {
+    color: #adadad;
+    cursor: pointer;
 }
